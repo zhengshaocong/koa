@@ -1,0 +1,183 @@
+@import './vantSet.scss';
+@import './count-common.scss';
+@import './transition.scss';
+body {
+    height: 100%;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Helvetica Neue, Helvetica, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    // background-color: #f7f7f7;
+    min-height: 100vh;
+    font-size: 0.32rem!important;
+    -webkit-overflow-scrolling: touch
+  }
+  label {
+    font-weight: 700;
+  }
+  
+  ul,li{
+  list-style:none;
+  padding: 0;
+  margin: 0;
+  }
+  html {
+    height: 100%;
+    box-sizing: border-box;
+  }
+  
+  #app {
+    height: 100%;
+  }
+  
+  p{margin:0}
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+  
+  .no-padding {
+    padding: 0px !important;
+  }
+  
+  .padding-content {
+    padding: 4px 0;
+  }
+  
+  a:focus,
+  a:active {
+    outline: none;
+  }
+  
+  a,
+  a:focus,
+  a:hover {
+    cursor: pointer;
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  div:focus {
+    outline: none;
+  }
+  
+
+  .pos-r{
+    position: relative;
+  }
+  .pos-a{
+    position: absolute;
+  }
+  .fr {
+    float: right;
+  }
+  
+  .fl {
+    float: left;
+  }
+  .db{
+    display: block!important;
+  }
+  .di{
+    display: inline!important;
+  }
+  .di-b{
+    display: inline-block!important;
+  }
+  .df{
+    display: flex;
+  }
+  .jsc{
+    justify-content: center;
+  }
+  .jsb{
+    justify-content: space-between;
+  }
+  .jsa{
+    justify-content: space-around;
+  }
+  .jse{
+    justify-content: flex-end;
+  }
+  .fdc{
+    flex-direction: column;
+  }
+  .fdcr{
+    flex-direction: column-reverse;
+  }
+  .fdrr{
+    flex-direction: row-reverse;
+  }
+  .fw{
+    flex-wrap: wrap;
+  }
+  .ass{
+    align-self: flex-start;
+  }
+  .ai-c{
+    align-items: center;
+  }
+  .ai-s{
+    align-items: flex-start;
+  }
+  .ai-e{
+    align-items: flex-end;
+  }
+  .ai-a{
+    align-items: stretch;
+  }
+  .fg{
+    flex-grow: 1;
+  }
+  .fs{
+    flex-shrink: 0;
+  }
+  
+  
+  
+  .db {
+    display: block;
+  }
+  
+  .nowrap{
+    white-space: nowrap;
+  }
+  
+  .pointer {
+    cursor: pointer;
+  }
+  
+  .inlineBlock {
+    display: block;
+  }
+  
+  .clearfix {
+    &:after {
+      visibility: hidden;
+      display: block;
+      font-size: 0;
+      content: " ";
+      clear: both;
+      height: 0;
+    }
+  }
+
+  .text-center{
+    text-align: center;
+  }
+
+
+  .van-toast{
+    width: 120px;
+    padding: 10px;
+  }
+
+
+  .weChat_scroll{
+    -webkit-overflow-scrolling: touch;
+  }
